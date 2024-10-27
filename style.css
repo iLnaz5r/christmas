@@ -1,0 +1,61 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #e55952;
+}
+.box{
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(2,400px);
+    background-color: white;
+}
+.main_text{
+    display: flex;
+    text-align: center;
+    padding: 60px;
+    flex-direction: column;
+    margin-top: -30px;
+}
+.info{
+    color: #929395;
+    margin-top: -20px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #152a49;
+    font-size: 50px;
+}
+.dis{
+    border: none;
+    border-radius: 50%;
+}
+.knopki{
+    display: grid;
+    margin-top: 40px;
+    gap: 2rem;
+}
+input[type="name"] {
+    text-align: center;
+}
+input[type="order"] {
+    text-align: center;
+}
+.imya input{
+    display: grid;
+    height: 40px;
+    font-size: 13px;
+    width: 300px;
+    border: #929395 1px solid;
+    border-radius: 20px;
+}
+.zakaz input{
+    display: grid;
+    height: 40px;
+    width: 300px;
+    font-size: 13px;
+    color: white;
+    background-color: #152a49;
+    border: none;
+    border-radius: 20px;
+}
